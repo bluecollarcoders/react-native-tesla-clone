@@ -4,7 +4,7 @@ import StyledButton from "../StyledButton";
 import styles from "./style";
 
 const CarItem = (props) => {
-  const { name, tagLine, image, taglineCta } = props;
+  const { name, tagLine, image, taglineCta } = props.car;
   return (
     <View style={styles.carContainer}>
       {/* card container */}
