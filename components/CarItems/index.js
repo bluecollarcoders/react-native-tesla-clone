@@ -2,7 +2,6 @@ import React from "react";
 import { View, Text, ImageBackground } from "react-native";
 import StyledButton from "../StyledButton";
 import styles from "./style";
-import backImage from "../../assets/images/ModelS.jpeg";
 
 const CarItem = (props) => {
   const { name, tagLine, image, taglineCta } = props;
